@@ -1,12 +1,13 @@
 import React from "react"
-import Layout from "../components/Layout"
+import Layout from "../../components/Layout"
+import "../../styles/projects.css"
 
 export default function Projects() {
   return (
     <Layout>
-      <div>
-        <h1>Portfolio</h1>
-        <h2>Websites and Projects I've Created</h2>
+      <div className="portfolio">
+        <h2>Portfolio</h2>
+        <h3>Websites and Projects I've Created</h3>
       </div>
     </Layout>
   )
