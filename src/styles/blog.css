@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blog {
+  text-align: center;
+}
+.blog > h2 {
+  font-size: 3em;
+  margin-top: 80px;
+}
+.blog > h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.blog-container {
+  padding-top: 30px;
+}
+
+.blog-card {
+  background: white;
+  max-width: 300px;
+  max-height: 390px;
+  border-radius: 15px 15px;
+  padding: 15px;
+}
+
+.blog-card > img {
+  max-width: 300px;
+}
+
+.blog-card > h3 {
+  color: rgb(42, 42, 42);
+}
+
+.blog-card > .blog-card-text > p {
+  max-height: 100px;
+  color: rgb(42, 42, 42);
+  overflow: hidden;
+}
+
+.blog-card > .blog-card-btn {
+  color: white;
+  background: #d42990;
+  padding: 5px 10px;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+  font-weight: 500;
+}
