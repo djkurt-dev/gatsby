@@ -11,7 +11,7 @@ export default function Home({ data }) {
     <Layout>
       <section className="header">
         <div>
-          <h2>Design</h2>
+          <h2 className="font-bold">Design</h2>
           <h3>Develop & Deploy</h3>
           <p>Frontend Software Engineer based in Philippines.</p>
           <Link className="btn" to="/projects">

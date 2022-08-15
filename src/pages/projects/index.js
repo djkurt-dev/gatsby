@@ -12,7 +12,7 @@ export default function Projects({ data }) {
   return (
     <Layout>
       <div className="portfolio">
-        <h2>Portfolio</h2>
+        <h2 className="font-semibold">Portfolio</h2>
         <h3>Websites and Projects I've Created</h3>
 
         <div className="projects">
